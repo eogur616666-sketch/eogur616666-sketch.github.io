@@ -2,6 +2,7 @@
 <html lang="ko">
 <head>
   <meta name="google-site-verification" content="wZROY4-y9VXR59SRkJfWd46bz4Os_xEOsGldzcPev5s" />
+  <meta name="google-adsense-account" content="ca-pub-1506316916281348" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>2026 연봉 실수령액 계산기 - 월급 세후 실수령액 | 퇴직금·4대보험 계산기</title>
@@ -113,6 +114,14 @@
     }
     .logo { font-size: 1.3rem; font-weight: 700; text-decoration: none; color: white; }
     .logo span { opacity: 0.8; font-weight: 400; font-size: 0.9rem; margin-left: 6px; }
+    .header-nav { display: flex; gap: 6px; margin-left: 8px; margin-right: auto; }
+    .header-nav-link {
+      text-decoration: none; color: rgba(255,255,255,0.75); font-size: 0.85rem;
+      padding: 5px 12px; border-radius: 20px; transition: all 0.2s;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .header-nav-link:hover { background: rgba(255,255,255,0.15); color: white; }
+    .header-nav-link.active { background: rgba(255,255,255,0.2); color: white; font-weight: 600; }
     .badge {
       background: rgba(255,255,255,0.25);
       border-radius: 20px;
@@ -517,6 +526,10 @@
 <header>
   <div class="header-inner">
     <a class="logo" href="#">💰 세금계산기 <span>허브</span></a>
+    <nav class="header-nav">
+      <a class="header-nav-link active" href="/">💰 연봉계산기</a>
+      <a class="header-nav-link" href="/contract-analyzer/">📋 계약서 분석기</a>
+    </nav>
     <span class="badge">2026 최신</span>
   </div>
 </header>
